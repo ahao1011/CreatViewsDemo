@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		E0093DF51EC46A9600EDE495 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0093DF41EC46A9600EDE495 /* main.m */; };
 		E0093DF81EC46A9600EDE495 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0093DF71EC46A9600EDE495 /* AppDelegate.m */; };
-		E0093DFB1EC46A9600EDE495 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0093DFA1EC46A9600EDE495 /* ViewController.m */; };
 		E0093DFE1EC46A9600EDE495 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0093DFC1EC46A9600EDE495 /* Main.storyboard */; };
 		E0093E001EC46A9600EDE495 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0093DFF1EC46A9600EDE495 /* Assets.xcassets */; };
 		E0093E031EC46A9600EDE495 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0093E011EC46A9600EDE495 /* LaunchScreen.storyboard */; };
 		E0093E0E1EC46A9600EDE495 /* CreatViewsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0093E0D1EC46A9600EDE495 /* CreatViewsDemoTests.m */; };
 		E0093E191EC46A9700EDE495 /* CreatViewsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0093E181EC46A9700EDE495 /* CreatViewsDemoUITests.m */; };
+		E0093E281EC46AB900EDE495 /* AHTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0093E271EC46AB900EDE495 /* AHTestViewController.m */; };
+		E0093E2A1EC46EBC00EDE495 /* AHTest.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0093E291EC46EBC00EDE495 /* AHTest.xib */; };
+		E07DE4A01EC93DAF008A5567 /* AHView.m in Sources */ = {isa = PBXBuildFile; fileRef = E07DE49F1EC93DAF008A5567 /* AHView.m */; };
+		E07DE4A71EC9445B008A5567 /* AhView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E07DE4A61EC9445B008A5567 /* AhView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,6 @@
 		E0093DF41EC46A9600EDE495 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E0093DF61EC46A9600EDE495 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0093DF71EC46A9600EDE495 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E0093DF91EC46A9600EDE495 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E0093DFA1EC46A9600EDE495 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E0093DFD1EC46A9600EDE495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0093DFF1EC46A9600EDE495 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0093E021EC46A9600EDE495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,12 @@
 		E0093E141EC46A9700EDE495 /* CreatViewsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreatViewsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0093E181EC46A9700EDE495 /* CreatViewsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreatViewsDemoUITests.m; sourceTree = "<group>"; };
 		E0093E1A1EC46A9700EDE495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0093E261EC46AB900EDE495 /* AHTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHTestViewController.h; sourceTree = "<group>"; };
+		E0093E271EC46AB900EDE495 /* AHTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHTestViewController.m; sourceTree = "<group>"; };
+		E0093E291EC46EBC00EDE495 /* AHTest.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AHTest.xib; sourceTree = "<group>"; };
+		E07DE49E1EC93DAF008A5567 /* AHView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHView.h; sourceTree = "<group>"; };
+		E07DE49F1EC93DAF008A5567 /* AHView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHView.m; sourceTree = "<group>"; };
+		E07DE4A61EC9445B008A5567 /* AhView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AhView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +110,12 @@
 			children = (
 				E0093DF61EC46A9600EDE495 /* AppDelegate.h */,
 				E0093DF71EC46A9600EDE495 /* AppDelegate.m */,
-				E0093DF91EC46A9600EDE495 /* ViewController.h */,
-				E0093DFA1EC46A9600EDE495 /* ViewController.m */,
+				E07DE49E1EC93DAF008A5567 /* AHView.h */,
+				E07DE49F1EC93DAF008A5567 /* AHView.m */,
+				E07DE4A61EC9445B008A5567 /* AhView.xib */,
+				E0093E261EC46AB900EDE495 /* AHTestViewController.h */,
+				E0093E271EC46AB900EDE495 /* AHTestViewController.m */,
+				E0093E291EC46EBC00EDE495 /* AHTest.xib */,
 				E0093DFC1EC46A9600EDE495 /* Main.storyboard */,
 				E0093DFF1EC46A9600EDE495 /* Assets.xcassets */,
 				E0093E011EC46A9600EDE495 /* LaunchScreen.storyboard */,
@@ -249,6 +260,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E07DE4A71EC9445B008A5567 /* AhView.xib in Resources */,
+				E0093E2A1EC46EBC00EDE495 /* AHTest.xib in Resources */,
 				E0093E031EC46A9600EDE495 /* LaunchScreen.storyboard in Resources */,
 				E0093E001EC46A9600EDE495 /* Assets.xcassets in Resources */,
 				E0093DFE1EC46A9600EDE495 /* Main.storyboard in Resources */,
@@ -276,9 +289,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0093DFB1EC46A9600EDE495 /* ViewController.m in Sources */,
+				E0093E281EC46AB900EDE495 /* AHTestViewController.m in Sources */,
 				E0093DF81EC46A9600EDE495 /* AppDelegate.m in Sources */,
 				E0093DF51EC46A9600EDE495 /* main.m in Sources */,
+				E07DE4A01EC93DAF008A5567 /* AHView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +532,7 @@
 				E0093E1F1EC46A9700EDE495 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0093E201EC46A9700EDE495 /* Build configuration list for PBXNativeTarget "CreatViewsDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +541,7 @@
 				E0093E221EC46A9700EDE495 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0093E231EC46A9700EDE495 /* Build configuration list for PBXNativeTarget "CreatViewsDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +550,7 @@
 				E0093E251EC46A9700EDE495 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

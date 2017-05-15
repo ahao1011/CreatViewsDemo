@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "AHTestViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,30 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor redColor];
+    
+//    AHTestViewController *vir = [AHTestViewController alloc]ini;
+    
+    
+     //  故事版生成控制器
+//    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+//    
+//    AHTestViewController *vc = [storyboard instantiateViewControllerWithIdentifier:@"AHDemo2"];
+    
+//      AHTestViewController *vc = [storyboard instantiateViewControllerWithIdentifier:@"AHDemo2"];
+    
+    //  xib生成控制器
+    
+    AHTestViewController *vc = [[AHTestViewController alloc]initWithNibName:@"AHTest" bundle:nil];
+    
+    
+    self.window.rootViewController = vc;
+    
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 
